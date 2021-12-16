@@ -5,7 +5,7 @@ pool: Default
 
 steps:
 - task: Docker@2
-  displayName: 'Build NodeJS Image'
+  displayName: 'Build log4j vulnerable image'
   inputs:
     command: 'build'
     Dockerfile: '**/Dockerfile'
